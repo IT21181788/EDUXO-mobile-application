@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <View
+        android:id="@+id/welcombar"
+        android:layout_width="416dp"
+        android:layout_height="224dp"
+        android:background="@drawable/background_view"
+        android:backgroundTint="#428BC5"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="208dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="184dp"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnlearn"
+        app:layout_constraintEnd_toEndOf="@+id/welcombar"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/welcombar"
+        app:layout_constraintVertical_bias="0.449" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="86dp"
+        android:layout_height="79dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        app:srcCompat="@drawable/propic" />
+
+    <TextView
+        android:id="@+id/textVi5w2"
+        android:layout_width="438dp"
+        android:layout_height="45dp"
+        android:background="@drawable/box"
+        android:backgroundTint="#6FBC13"
+        android:gravity="center"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnlearn"
+        android:layout_width="340dp"
+        android:layout_height="124dp"
+        android:backgroundTint="#FEC122"
+        android:shadowColor="#E9313032"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        android:shadowRadius="20"
+        android:text="Learn"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <Button
+        android:id="@+id/btnleadboard"
+        android:layout_width="340dp"
+        android:layout_height="124dp"
+        android:backgroundTint="#AD231ACC"
+        android:shadowColor="#E9313032"
+        android:shadowDx="30"
+        android:shadowDy="30"
+        android:shadowRadius="30"
+        android:text="LeadBoard"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <Button
+        android:id="@+id/btnqa"
+        android:layout_width="340dp"
+        android:layout_height="124dp"
+        android:backgroundTint="#6FBD13"
+        android:shadowColor="#E9313032"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        android:shadowRadius="20"
+        android:text="Q&amp;A"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
+
+    <Button
+        android:id="@+id/btndonation"
+        android:layout_width="340dp"
+        android:layout_height="124dp"
+        android:backgroundTint="#1B62CD"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:radius="80dp"
+        android:shadowColor="#E9313032"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        android:shadowRadius="20"
+        android:text="Donate"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

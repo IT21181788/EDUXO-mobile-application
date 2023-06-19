@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".InsertionActivity">
+
+
+    <EditText
+        android:id="@+id/etsubjectname"
+        android:layout_width="366dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Enter Subject Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etnote"
+        android:layout_width="366dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter subject notes"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etsubjectname" />
+
+    <EditText
+        android:id="@+id/etlink"
+        android:layout_width="366dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter video link"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etnote" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="199dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#D8075B"
+        android:text="Save Data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etlink" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="276dp"
+        android:layout_height="264dp"
+        android:backgroundTint="#E60F0F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856"
+        app:srcCompat="@drawable/undraw_learning_sketching_nd4f__1_" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="196dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Add Subject Data"
+        android:textColor="#0C2B88"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/etsubjectname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
+</androidx.constraintlayout.widget.ConstraintLayout>

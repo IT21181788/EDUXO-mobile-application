@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/box6"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+
+    <Button
+        android:id="@+id/btnInsertData"
+        android:layout_width="245dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="#F3B106"
+        android:text="Add subject data"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFetchData"
+        android:layout_width="245dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#8E116A"
+        android:text="ADMINVIEW"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInsertData" />
+
+    <Button
+        android:id="@+id/userview"
+        android:layout_width="245dp"
+        android:layout_height="83dp"
+        android:text="userview"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFetchData"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="237dp"
+        android:layout_height="155dp"
+        android:src="@drawable/undraw_landing_page_re_6xev"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

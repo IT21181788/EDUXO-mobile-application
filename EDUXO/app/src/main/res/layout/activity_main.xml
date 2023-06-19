@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+
+    <Button
+        android:id="@+id/btnInsertData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="insert Data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <Button
+        android:id="@+id/btnFetchData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:text="Fetch Data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInsertData" />
+
+    <Button
+        android:id="@+id/userview"
+        android:layout_width="129dp"
+        android:layout_height="57dp"
+        android:text="userview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFetchData"
+        app:layout_constraintVertical_bias="0.274" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="539dp"
+        android:layout_height="770dp"
+        android:src="@drawable/bgapp"
+        tools:layout_editor_absoluteX="-90dp"
+        tools:layout_editor_absoluteY="-20dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
